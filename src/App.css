@@ -24,7 +24,6 @@
   color: var(--text-color);
   align-items: center;
   max-width: 1800px;
-  height: 100vh;
 }
 .sidebar {
   padding-top: 10px;
