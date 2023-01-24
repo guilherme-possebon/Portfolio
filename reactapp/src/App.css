@@ -1,0 +1,53 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+  --green: #00FF00;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.ContainerPrincipal {
+  display: flex;
+  justify-content: center;
+  background-color: var(--body-bg-color);
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+  align-items: center;
+  max-width: 1800px;
+  height: 100vh;
+}
+.sidebar {
+  padding-top: 10px;
+}
+.main {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px ) {
+    .Container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      background-color: var(--body-bg-color);
+      align-items: start;
+    }
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+}
