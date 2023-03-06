@@ -12,8 +12,8 @@ function App() {
         <div className="Container">
           <div className='sidebar'>
               <Me />
-              <NetWorks />
               <Skills />
+              <NetWorks />
           </div>
           <main className='main'>
               <Projects />

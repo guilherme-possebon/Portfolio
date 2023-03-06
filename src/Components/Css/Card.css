@@ -17,7 +17,7 @@
     height: 300px;
     border-radius: 20px;
     background-color: var(--bg-cards);
-    margin: 30px 0px;
+    margin: 10px 0px;
     box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.571)
 }
 .imgMe {
