@@ -6,6 +6,8 @@ import n2 from '/02.png'
 import n3 from '/03.png'
 import n4 from '/04.png'
 import n5 from '/05.png'
+import n6 from '/06.png'
+
 
 export default function Projects() {
     return (
@@ -28,6 +30,9 @@ export default function Projects() {
                 </div>
                 <div className="projectItem">
                     <MyProjects href={"https://guilherme-possebon.github.io/Projeto-social/html/index.html"} img={n5} p={"A site that uses iframes"} /> 
+                </div>
+                <div className="projectItem">
+                    <MyProjects href={"https://restaurante-60286.web.app/"} img={n6} p={"A layout of a restaurant."} /> 
                 </div>
             </div>
         </>
