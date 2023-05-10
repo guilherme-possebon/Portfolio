@@ -11,6 +11,8 @@ export default function Skills() {
                 <p>JavaScript</p>
                 <p>TypeScript</p>
                 <p>Git</p>
+                <p>Tailwind CSS</p>
+                <p>Next.Js</p>
                 <p>Github</p>
             </div>
         </div>
